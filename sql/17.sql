@@ -14,3 +14,4 @@ JOIN rental USING (customer_id)
 JOIN payment USING (rental_id)
 GROUP BY country
 ORDER BY country;
+
